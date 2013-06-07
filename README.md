@@ -1,12 +1,11 @@
 dns-made-easy-updater
 =====================
-
 - Author: Andrew Kroh
 - Website: http://blog.crowbird.com
-- License: Apache License, Version 2.0
-- Requirements: Java 1.5+
-- Supported OS: any OS that has a JVM
 - Download: http://blog.crowbird.com/artifacts/dns-made-easy-updater/
+- License: Apache License, Version 2.0
+- Supported OS: any OS that has a JVM
+- Requirements: Java 1.5+
 
 What is it?
 -----------
@@ -25,7 +24,7 @@ on the communication specification.
 The utilities can used behind NAT because they determine your public IP address using
 a "reflector" hosted by DNS Made Easy. The utilities call out to the "reflector" which
 simply echos back the IP address from which your request originated. That address is
-then used in the sebsequent DDNS update.
+then used in the subsequent DDNS update.
 
 Proxy Users: If you need to use this utility behind a proxy server you can set the 
 HTTP and HTTPS proxy servers using standard Java command line properties. 
