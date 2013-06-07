@@ -35,12 +35,12 @@ IP address will be used in your DDNS updates.
 
 How do I use it?
 ----------------
-1. Download the latest version from here.
+1. Download the latest version from http://blog.crowbird.com/artifacts/dns-made-easy-updater.
 2. Extract the file to your machine.
 3. Modify config.properties to match the information for the DDNS record you want to update.
 4. Execute `./autoupdater --config-file path/to/config.properties --current-ip-file where/to/save/current-ip.properties`
 5. You should see "success" if all went well, otherwise you need to troubleshoot.
-6. Once you have the command working you'll want to automate the execution using cron or Windows Scheduled Task.
+6. Once you have the command is working you'll want to automate the execution using cron or Windows Scheduled Task.
 
 For unix systems run crontab -e and add a line like this:
 	
