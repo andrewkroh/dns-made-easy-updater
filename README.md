@@ -21,7 +21,7 @@ The utilities make HTTPS calls to a RESTful service hosted by DNS Made Easy.
 See http://oldcp.dnsmadeeasy.com/enterprisedns/ddnstechspec.html for information 
 on the communication specification.
 
-The utilities can used behind NAT because they determine your public IP address using
+The utilities can be used behind NAT because they determine your public IP address using
 a "reflector" hosted by DNS Made Easy. The utilities call out to the "reflector" which
 simply echos back the IP address from which your request originated. That address is
 then used in the subsequent DDNS update.
@@ -39,7 +39,7 @@ How do I use it?
 3. Modify config.properties to match the information for the DDNS record you want to update.
 4. Execute `./autoupdater --config-file path/to/config.properties --current-ip-file where/to/save/current-ip.properties`
 5. You should see "success" if all went well, otherwise you need to troubleshoot.
-6. Once you have the command is working you'll want to automate the execution using cron or Windows Scheduled Task.
+6. Once you have the command working you'll want to automate the execution using cron or Windows Scheduled Task.
 
 For unix systems run crontab -e and add a line like this:
 	
