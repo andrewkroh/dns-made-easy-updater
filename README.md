@@ -6,6 +6,7 @@ dns-made-easy-updater
 - License: Apache License, Version 2.0
 - Requirements: Java 1.5+
 - Supported OS: any OS that has a JVM
+- Download: http://blog.crowbird.com/artifacts/dns-made-easy-updater/
 
 What is it?
 -----------
@@ -17,12 +18,20 @@ the last known public IP address, and only performs an update when the IP addres
 
 How does it work?
 -----------------
-The utilities make HTTPS calls to a RESTful service hosted by DNS Made Easy.
+The utilities make HTTPS calls to a RESTful service hosted by DNS Made Easy. 
+See http://oldcp.dnsmadeeasy.com/enterprisedns/ddnstechspec.html for information 
+on the communication specification.
 
 The utilities can used behind NAT because they determine your public IP address using
 a "reflector" hosted by DNS Made Easy. The utilities call out to the "reflector" which
 simply echos back the IP address from which your request originated. That address is
 then used in the sebsequent DDNS update.
+
+Proxy Users: If you need to use this utility behind a proxy server you can set the 
+HTTP and HTTPS proxy servers using standard Java command line properties. 
+See http://download.oracle.com/javase/6/docs/technotes/guides/net/proxies.html for 
+information on how to configure your proxies. But be warned that the proxies public
+IP address will be used in your DDNS updates.
 
 How do I use it?
 ----------------
