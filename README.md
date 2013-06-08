@@ -4,7 +4,7 @@ dns-made-easy-updater
 - Website: http://blog.crowbird.com
 - Download: http://blog.crowbird.com/artifacts/dns-made-easy-updater/
 - License: Apache License, Version 2.0
-- Supported OS: any OS that has a JVM
+- Supported OS: any that have a JVM
 - Requirements: Java 1.5+
 
 What is it?
