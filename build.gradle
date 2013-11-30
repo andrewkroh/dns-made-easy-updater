@@ -8,6 +8,7 @@ repositories {
 
 mainClassName = 'com.krohinc.dns.DnsMadeEasyManualUpdater'
 targetCompatibility = 1.5
+sourceCompatibility = 1.5
 version = '1.1.0'
 
 jar {
