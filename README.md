@@ -1,4 +1,4 @@
-dns-made-easy-updater ![Build Status](https://blog.crowbird.com/build-status/dns-made-easy-updater)
+dns-made-easy-updater ![Build Status](https://va.crowbird.com/build-status/dns-made-easy-updater)
 =====================
 - Author: Andrew Kroh
 - Website: http://blog.crowbird.com
