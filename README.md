@@ -1,8 +1,6 @@
 dns-made-easy-updater
 =====================
 - Author: Andrew Kroh
-- Website: http://blog.crowbird.com
-- Download: http://blog.crowbird.com/artifacts/dns-made-easy-updater/
 - License: Apache License, Version 2.0
 - Supported OS: any that have a JVM
 - Requirements: Java 1.5+
@@ -34,8 +32,8 @@ IP address will be used in your DDNS updates.
 
 How do I use it?
 ----------------
-1. Download the latest version from http://blog.crowbird.com/artifacts/dns-made-easy-updater.
-2. Extract the file to your machine.
+1. Build a zip or tar (see Building and Packaging below).
+2. Extract the file on the target machine.
 3. Modify config.properties to match the information for the DDNS record you want to update.
 4. Execute `./autoupdater --config-file path/to/config.properties --current-ip-file where/to/save/current-ip.properties`
 5. You should see "success" if all went well, otherwise you need to troubleshoot.
