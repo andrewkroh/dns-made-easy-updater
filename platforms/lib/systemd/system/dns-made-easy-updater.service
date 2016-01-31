@@ -1,0 +1,12 @@
+[Unit]
+Description=DDNS updater for DNS Made Easy
+ 
+[Service]
+Type=simple
+User=root
+Group=root
+ExecStart=/usr/bin/dns-made-easy-updater 
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
