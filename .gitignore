@@ -1,0 +1,9 @@
+*.swp
+*.exe
+*.dev.yaml
+.iml
+
+dns-made-easy-updater
+
+.idea
+build/

@@ -1,0 +1,14 @@
+# Dynamic DNS ID
+record-id: 12345678
+
+# Dynamic DNS Password (not your account password)
+password:  yourpassword
+
+# Account User Name
+username:  yourusername
+
+# File to save the current IP.
+current-ip-file: ~/.dme-ip
+
+# How often to check the saved IP against the public IP.
+interval: 60s

@@ -1,0 +1,8 @@
+package: main
+import:
+- package: github.com/Sirupsen/logrus
+  version: f7f79f729e0fbe2fcc061db48a9ba0263f588252
+- package: github.com/joeshaw/multierror
+  version: 69b34d4ec901851247ae7e77d33909caf9df99ed
+- package: gopkg.in/yaml.v2
+  version: f7716cbe52baa25d2e9b0d0da546fcf909fc16b4
