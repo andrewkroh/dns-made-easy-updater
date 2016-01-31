@@ -1,6 +1,6 @@
 dns-made-easy-updater
 =====================
-- Download: [See releases](/andrewkroh/dns-made-easy-updater/releases)
+- Download: [See releases](https://github.com/andrewkroh/dns-made-easy-updater/releases)
 - Author: Andrew Kroh
 - License: Apache License, Version 2.0
 - Supported OS: all supported by Go
