@@ -47,7 +47,7 @@ deploy:
     - "$HOME/gopath/src/${PROJ}/build/bin/dns-made-easy-updater_windows_386.exe"
     - "$HOME/gopath/src/${PROJ}/build/bin/dns-made-easy-updater_windows_amd64.exe"
   api_key:
-    secure: jV0dMoBfIV4YPCQPFCoDspUXlqyJBMrufM/4GbUFGmS5kqcf3bxN10RBG1cPFI6IPII5n9VY4Q9ZajUVfC6hDUTfHdQvdqPg8H2h9v/Ht8RJ51s2uUSAR+cGaF4H/viw+vtmXtKWqMtVIi+VGlF4Yo/QiOqb4PAb/ejaETU/hjQBqahfMQ05dBG7cWrsmdWgkgW5rzy+Ara2la+tZBAu/9fE6/PitVL1ZxY74+8YyWR0vBKXjxkTmBRCNwnYsIn3qAAMJ9tEWgYT/4j75BgW//h9LBI1K2OAXlOAwBGH8RSOkcchaKGM315vcvFQEWUoRkyRgLu2ezHijh4VLmfhNH9BS3ouMLUtXtdkvfrZQYoFDktVALKYKkfAfyrmY5j0zXOrHspxjn26QV0p1UbZHxiKAs4A6ktcNB38QLVKFYXeEprOAoKK1XhODIRVh5YKEx+U5luosVOQFikOJymBAHnLk8dn5quMdHUoBmKhFvXiVdfi0qM+oB9BL+xIO+arPnqyQt1ClW9v7IhSY/X8gfoZWThlKzNhJ89dMZb/T6VXFki/D+lXq9ilvdB98XNEp6XwUM5xWBb/RZqSh+EDkIN1oSQyIt0l3iecBFale7yY3yVDfvsPhBOrmg0Mzo9+JQV2ky2VLmvyIF9gWudVg5TbL1D2akWXCkEC/+543Gw=
+    secure: JPJ/X9uBaWSRXdWmrT9fUFXu1GymlgQu37JYUaTxpLbZNlPZj17YVKLTxmvgB27w6jJkKYCZ04sT9MUXkQo9RNFdHTVhVm+liHKVdUdYjHh4DyyvLJTt4LzpC8Ng7RqE4ULg2kTGlM/ZNIrjyT3Zj+Qoydv9Y7MvtXB18ksS+ERO7rm3s8lfvly7lFc2jzCsuJK9UgGqrsyJTh9k2froxaH+/Cewg3I/qHiXq3gKn8ziAHZNBFCjkZNw3gRrdR160BuAWwQR1eyRIVMi9V2pYySnHyrFDlLVQX4VsUTF44Ces5fo+5r/vdI85YLz0dPQ5zzpclfaPyl1ub7666udHE33+9cdgRn8etnVSNYWG3dfCoDLuw5nO6zfeuB2bJ0pHkPplNKhjmcHyP9T6EdGwN9VBx5hnw70a+nvJ3p8B1gek4eFke+LGGndCD4KDlC8sr+t4ZdCB6JMEp/0bcPPaVopr1CxSBPBKWmY/pTh9OxGaSa0oAwKudEt2HkfLxE/7TuUf7NXKVQqbcbBOKfeYXQydnYOl+1rKU+vfBQ2pp2vR4EoCZkM/XBd5SMWdinCqdxZjsY/F/lwbA3X7epkO+rFuQBjt9s+aftqt6MO99xhFAPxnm23NCCW0csSlkEbodWNsMKlhQZ8NF+jQ5PxvkSq9a/It9+alALUhyC/y08=
   on:
     tags: true
     repo: andrewkroh/dns-made-easy-updater
