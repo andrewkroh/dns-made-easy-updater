@@ -19,7 +19,7 @@ import (
 )
 
 const (
-	ipURL     = "https://myip.dnsmadeeasy.com/"
+	ipURL     = "http://myip.dnsmadeeasy.com/"
 	updateURL = "https://cp.dnsmadeeasy.com/servlet/updateip?"
 )
 
